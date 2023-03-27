@@ -1,0 +1,34 @@
+
+<svg>
+
+<rect id ="background"/>
+
+  <text id="dateLabel"/>
+  <text id="myLabel" />
+
+
+ 
+  <text id="timeLabel"/>
+  <text id="temperatureLabel" />
+  <text id="meteoLabel" />
+  <text id="locationLabel" />
+
+
+    
+    <image id="hr" href="heartRate.png"/>
+  <text id="heartRate" class="heartRate"/>
+  
+
+ 
+  <image id="batt" href="battery-100.png"/>
+  <text id="battery" class="battery"/>
+ 
+
+
+ 
+  <image id="foot" href="footprint.png"/>
+  <text id="stepsTaken" class="stepsTaken"/>
+  
+
+  
+</svg>

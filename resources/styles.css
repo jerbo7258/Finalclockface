@@ -1,0 +1,118 @@
+#background {
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+
+#myLabel {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor:middle;
+  x: 50%;
+  y: +10%;
+ 
+ 
+}
+
+#dateLabel{
+  font-size: 54;
+  font-family: System-Bold;
+  
+  text-length: 32;
+  text-anchor:middle;
+    x: 50%;
+    y: 150;
+}
+
+.heartRate{
+  font-size: 34;
+  font-family: System-Bold;
+  
+  text-length: 32;
+  text-anchor:middle;
+    x: 65;
+    y:305;
+
+}
+
+#hr{
+  x:49;
+  y:245;
+  width:10%;
+  height:10%;
+  
+  
+}
+#batt{
+  width:10%;
+  height:10%;
+  x:135;
+  y:245;
+}
+#battery{
+  
+    font-size: 34;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor:middle;
+    x: 155;
+    y:305;
+}
+
+#stepsTaken{
+  
+    font-size: 34;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor:middle;
+    x: 260;
+    y: 305;
+}
+#foot{
+    width:10%;
+    height:10%;
+    x:240;
+    y:245;
+}
+
+#timeLabel {
+  font-size: 76;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 165;
+  y: 225;
+  
+}
+
+#temperatureLabel {
+  font-size: 32;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: start;
+ x:215;
+ y: 50;
+ 
+}
+
+#meteoLabel {
+  font-size: 32;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: start;
+  x:215;
+  y: 85;
+  
+}
+
+#locationLabel {
+  font-size: 24;
+  font-family: System-Bold;
+  text-length: 15;
+  text-anchor: end;
+  x:140;
+  y: 60;
+  
+}
