@@ -164,7 +164,8 @@ messaging.peerSocket.onopen = function() {
 
 // Listen for messages from the companion
 messaging.peerSocket.onmessage = function(evt) {
-  if (evt.data) {
+  if (evt.data.key === "weather") {
+
     processWeatherData(evt.data);
   }
   console.log(`App received: ${JSON.stringify(evt)}`);

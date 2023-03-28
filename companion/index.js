@@ -21,6 +21,7 @@ function queryOpenWeather() {
       .then(function(data) {
         // We just want some data
         var weather = {
+          key: "weather",
             temperature: data.main.temp,
              meteo: data.weather[0].main, 
              location: data["name"]
